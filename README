@@ -1,1 +1,27 @@
 g++ -o lab3 lab3.cpp
+
+1000
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.01 seconds
+
+10000
+ort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.32 seconds
+v1/v2 are the same.
+
+100000
+sort(): 0.05 seconds
+v1/v2 are different.
+insertion_sort(): 128.12 seconds
+v1/v2 are the same.
+
+1000000
+sort(): 0.51 seconds
+v1/v2 are different.
+^C
+tl;dr
+
+if algo = O(nlogn), n = 10n -> exe time increase about 10 times
+if algo = O(n^2), n = 10n -> exe time increase about 100 times
